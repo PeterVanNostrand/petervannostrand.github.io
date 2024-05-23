@@ -9,30 +9,60 @@ redirect_from:
 
 Researching explainable AI technology and building systems for algorithmic transparency and ethical machine learning
 
-Publications
+Publications ([See More](publications/))
 ===
 
-**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**  
-*Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
+<style> 
 
-**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**  
+a {
+  color: #494e52;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+</style>
+
+<!-- <i class="fas fa-file-alt"></i>
+&nbsp;**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**  
+*Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
+Proceedings of the ACM on Management of Data 2025 (SIGMOD '25) -->
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**](publication/Examining-Actionable-Recourse)  
 *Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Elke A. Rundensteiner*  
 Proceedings of ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)
 
-**FACET: Robust Counterfactual Explanation Analytics**  
+<i class="fas fa-file-alt"></i>
+&nbsp;[**FACET: Robust Counterfactual Explanation Analytics**](publication/FACET-Robust-CFs)  
 *Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, Elke A. Rundensteiner*  
 Proceedings of the ACM on Management of Data 2023 (SIGMOD '23)  
 
-**A Demonstration of AutoOD: a Self-Tuning Anomaly Detection System**  
+<i class="fas fa-file-alt"></i>
+&nbsp;[**A Demonstration of AutoOD: A Self-Tuning Anomaly Detection System**](publication/AutoOD-Demo)  
 *Dennis Hofmann, Peter VanNostrand, Huayi Zhang, Yizhou Yan, Lei Cao, Samuel Madden, Elke Rundensteiner*  
 Proceedings of the VLDB Endowment 2022 (VLDB '22)
 
-**ELITE: Robust Deep Anomaly Detection with Meta Gradient**  
+<i class="fas fa-file-alt"></i>
+&nbsp;[**ELITE: Robust Deep Anomaly Detection with Meta Gradient**](publication/ELITE-Robust-AD)  
 *Huayi Zhang, Lei Cao, Peter VanNostrand, Samuel Madden, Elke A. Rundensteiner*  
 Proceedings ACM SIGKDD Conference on Knowledge Discovery & Data (KDD '21)
 
-**Confidential Deep Learning: Executing Proprietary Models on Untrusted Devices**  
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Confidential Deep Learning: Executing Proprietary Models on Untrusted Devices**](publication/Confidential-DL)  
 *Peter M. VanNostrand, Ioannis Kyriazis, Michelle Cheng, Tian Guo, Robert J. Walls*  
 arXiv:1908.10730 2019
 

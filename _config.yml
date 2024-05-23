@@ -57,7 +57,7 @@ author:
   keybase: # Username
   instagram: # Username
   lastfm: # Username
-  linkedin: "https://www.linkedin.com/in/petervannostrand/" # Username
+  linkedin: "petervannostrand" # Username
   mastodon: # URL
   medium: # URL
   pinterest: # Username
@@ -198,12 +198,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 # Defaults
 defaults:

@@ -10,7 +10,7 @@ author_profile: true
 </style>
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.<br><br>If one of my articles has been paywalled feel free to <a href="mailto:{{ author.email }}">shoot me an email</a>.</div>
+  <div class="wordwrap">You can also find my articles on my <a href="{{site.author.googlescholar}}">Google Scholar Profile</a>.<br><br>If one of my articles has been paywalled feel free to <a href="mailto:{{ author.email }}">shoot me an email</a>.</div>
 {% endif %}
 
 {% include base_path %}
