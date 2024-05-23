@@ -31,7 +31,7 @@ Education
 ======
 * Ph.D in Data Science, Worcester Polytechnic Institute, 2025 (expected)
 * M.S. in Data Science, Worcester Polytechnic Institute, 2022
-* B.S. in GitHub, GitHub University, 2020
+* B.S. in Electrical and Computer Engineering, University at Buffalo, 2020
 
 <!-- Work experience
 ======
