@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Peter VanNostrand / Personal Website"
+title: "Peter VanNostrand"
 title_separator: "-"
 name: &name "Peter M. VanNostrand"
 description: &description "PhD Candidate at Worcester Polytechnic Institute"
@@ -24,9 +24,9 @@ author:
   avatar: "profile.png"
   name: "Peter M. VanNostrand"
   pronouns: # example: "she/her"
-  bio: "PhD Student in Data Science at Worcester Polytechnic Institute - blah"
+  bio: "PhD Student in Data Science at Worcester Polytechnic Institute"
   location: "Worcester, MA"
-  employer: "Worcester Polytechnic Institute"
+  employer: # "Worcester Polytechnic Institute"
   uri: # URL
   email: "pvannostrand@wpi.edu"
 
@@ -45,7 +45,7 @@ author:
   orcid: "https://orcid.org/0000-0002-0285-6019"
   semantic: # URL
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate: "https://www.researchgate.net/profile/Peter-Vannostrand" # URL
+  researchgate: # "https://www.researchgate.net/profile/Peter-Vannostrand" # URL
 
   # Social media
   bluesky: # "bsky.app" # Replace this with you Bluesky username
@@ -65,7 +65,7 @@ author:
   steam: # Username
   telegram: # URL
   tumblr: # Username
-  twitter: "https://twitter.com/pvannost" # Username for X / Twitter
+  twitter: # "https://twitter.com/pvannost" # Username for X / Twitter
   vine: # Username
   weibo: # Username
   wikipedia: # Username
@@ -78,7 +78,7 @@ teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "50
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
 future: true
-read_more: "disabled" # if enabled, adds "Read more" links to excerpts
+read_more: "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link: false #change to true to add link to talkmap on talks page
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -243,23 +243,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # # _portfolio
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:

@@ -1,0 +1,13 @@
+section img {
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.page {
+    width: 83.0508474576%;
+    float: right;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+    padding-right: 0;
+}
