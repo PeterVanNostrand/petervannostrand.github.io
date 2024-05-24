@@ -14,6 +14,18 @@ section img {
     }
 }
 
+@media screen and (min-width: 480px) {
+    a.panel-story {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    a.panel-story {
+        width: 95%;
+    }
+}
+
 a.panel-story {
     color: black;
     border: solid;
@@ -22,5 +34,4 @@ a.panel-story {
     margin-left: auto;
     margin-right: auto;
     display: inherit;
-    width: 480px;
 }
