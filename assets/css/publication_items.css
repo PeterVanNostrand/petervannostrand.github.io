@@ -13,3 +13,14 @@ section img {
         padding-right: 0;
     }
 }
+
+a.panel-story {
+    color: black;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    width: 480px;
+}
