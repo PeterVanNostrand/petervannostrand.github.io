@@ -6,7 +6,7 @@ excerpt: "Anomaly detection is a critical task in applications like preventing f
 date: 2022-08-01
 venue: "Proceedings of the VLDB Endowment (VLDB)"
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: "https://doi.org/10.14778/3554821.3554880"
+paperurl: "/redirect/AutoOD-PDF"
 citation: "Dennis Hofmann, Peter VanNostrand, Huayi Zhang, Yizhou Yan, Lei Cao, Samuel Madden, and Elke Rundensteiner. 2022. A demonstration of AutoOD: a self-tuning anomaly detection system. Proc. VLDB Endow. 15, 12 (August 2022), 3706–3709. https://doi.org/10.14778/3554821.3554880"
 ---
 

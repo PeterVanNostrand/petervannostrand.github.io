@@ -6,7 +6,7 @@ excerpt: "Machine learning systems are deployed in domains such as hiring and he
 date: 2023-12-12
 venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
 slidesurl: # "http://academicpages.github.io/files/slides1.pdf"
-paperurl: "https://dl.acm.org/doi/10.1145/3626729?cid=99659850355"
+paperurl: "/redirect/FACET-PDF"
 citation: "Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, and Elke A. Rundensteiner. 2023. FACET: Robust Counterfactual Explanation Analytics. Proc. ACM Manag. Data 1, 4, Article 242 (December 2023), 27 pages. https://doi.org/10.1145/3626729"
 ---
 

@@ -1,0 +1,72 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+
+  {% assign time = 0 %}
+  {% assign targetname = page.target %}
+
+  {% if page.time %}
+  {% assign time = page.time %}
+  {% endif %}
+
+  {% if page.targetname %}
+  {% assign targetname = page.targetname %}
+  {% endif %}
+
+  {% capture title %}Redirecting to {{ targetname }}{% endcapture %}
+  {% if page.targettitle %}
+  {% assign title = page.targettitle %}
+  {% endif %}
+  <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}" />
+  <link rel="canonical" href="{{ page.target }}" />
+</head>
+
+<body>
+
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
+
+  <div id="main" role="main">
+    {% include sidebar.html %}
+
+    <div class="archive">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+
+      <h1>{{ title }}</h1>
+
+      {% if page.message %}
+      <p>{{ page.message }}</p>
+      {% else %}
+      <p>This document has moved!</p>
+      {% endif %}
+
+      <p>If you're not redirected within {{ time }} seconds click here: <a href="{{ page.target }}">{{ targetname }}</a></p>
+
+      {{ content }}
+    </div>
+  </div>
+
+
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

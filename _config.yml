@@ -106,9 +106,9 @@ staticman:
       type: "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-# atom_feed:
-#   hide: true # change to true to hide the RSS feed in the footer
-#   path: # blank (default) uses feed.xml
+atom_feed:
+  hide: true # change to true to hide the RSS feed in the footer
+  path: # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification:
@@ -142,6 +142,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _redirects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

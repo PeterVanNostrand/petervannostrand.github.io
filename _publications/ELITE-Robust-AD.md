@@ -6,7 +6,7 @@ excerpt: "Deep Learning techniques have been widely used in detecting anomalies 
 date: 2021-08-14
 venue: "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD)"
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: "https://dl.acm.org/doi/10.1145/3447548.3467320?cid=99659850355"
+paperurl: "/redirect/ELITE-PDF"
 citation: "Huayi Zhang, Lei Cao, Peter VanNostrand, Samuel Madden, and Elke A. Rundensteiner. 2021. ELITE: Robust Deep Anomaly Detection with Meta Gradient. In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining (KDD '21). Association for Computing Machinery, New York, NY, USA, 2174–2182. https://doi.org/10.1145/3447548.3467320"
 ---
 
