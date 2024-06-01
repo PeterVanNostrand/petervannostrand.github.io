@@ -7,7 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Researching explainable AI technology and building systems for algorithmic transparency and ethical machine learning
+Hi there! I'm Peter, a fourth-year PhD Candidate in Data Science at Worcester Polytechnic Institute. My research focuses on building systems and technologies for the ethical and responsible use of machine learning with an eye towards using data science for social good. My most recent works study generating and evaluating different types of explanations to bring transparency and recourse to consequential automated decisions.
+
+As a researcher with an engineering background, I’m passionate about expanding on emerging concepts in machine learning to build systems and solutions that are practically useful to real users. I’ve leveraged this background to become a fast learner and taken technologies from initial research to design and development of scalable systems and human-computer interfaces to evaluation through A/B crowd sourced user testing.
+
+My research has been published in conferences such as FAccT, SIGMOD, KDD, and VLDB with a variety of incredible collaborators. I’ve also had the honor of serving as a mentor to several undergraduate teams and new graduate students.
+
+Learn more about my work [here]([publications/) or checkout my [CV](/cv) for more about me!
 
 Publications ([See More](publications/))
 ===
