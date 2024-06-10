@@ -6,7 +6,7 @@ excerpt: "Automated decision-making systems are increasingly deployed in domains
 date: 2024-06-01
 venue: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
 slidesurl: "/files/Examining-Actionable-Recourse-FAccT24-Slides.pptx"
-paperurl: "/redirect/FAccT24-PDF"
+paperurl: "https://dl.acm.org/doi/10.1145/3630106.3658997?cid=99659850355"
 citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, and Elke A. Rundensteiner. 2024. Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding. In The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24), June 03--06, 2024, Rio de Janeiro, Brazil. ACM, New York, NY, USA 19 Pages. https://doi.org/10.1145/3630106.3658997"
 ---
 
