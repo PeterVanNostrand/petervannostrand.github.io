@@ -19,6 +19,6 @@ Machine learning systems are deployed in domains such as hiring and healthcare, 
 **Checkout the following resources related to this work!**
 
 - Open Source Python implementation available at [https://github.com/PeterVanNostrand/FACET](https://github.com/PeterVanNostrand/FACET)
-- We published a comprehensive user evaluation of FACET's region in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](https://petervannostrand.github.io/publication/Examining-Actionable-Recourse).
+- We published a comprehensive user evaluation of FACET's region in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](https://petervannostrand.github.io/publication/Examining-Actionable-Recourse)!
 - We also develop an open source explanation user interface for lay users to interact with FACET's analytics. Coming soon as an accepted demo at VLDB 2024!
   
