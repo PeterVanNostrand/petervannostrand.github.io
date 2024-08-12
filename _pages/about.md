@@ -47,7 +47,13 @@ a:active {
 *Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
 Proceedings of the ACM on Management of Data 2025 (SIGMOD '25) -->
 
-Click here <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
+Click <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions**](publication/FACET-Demo)  
+*Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner*  
+Proceedings of the VLDB Endowment (VLDB '24)
+
 
 <i class="fas fa-file-alt"></i>
 &nbsp;[**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**](publication/Examining-Actionable-Recourse)  
