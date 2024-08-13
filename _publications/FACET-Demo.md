@@ -15,7 +15,7 @@ citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy
 
 Machine learning is routinely used to automate consequential decisions about users in domains such as finance and healthcare, raising concerns of transparency and recourse for negative outcomes. Existing Explainable AI techniques generate a static counterfactual point explanation which recommends changes to a user's instance to obtain a positive outcome. Unfortunately, these recommendations are often difficult or impossible for users to realistically enact. To overcome this, we present FACET, the first interactive robust explanation system which generates personalized counterfactual region explanations. FACET's expressive explanation analytics empower users to explore and compare multiple counterfactual options and develop a personalized actionable plan for obtaining their desired outcome. Visitors to the demonstration will interact with FACET via a new web dashboard for explanations of a loan approval scenario. In doing so, visitors will experience how lay users can easily leverage powerful explanation analytics through visual interactions and displays without the need for a strong technical background. [Download Paper](/redirect/FACETDemo-PDF) ⏐ [Download Slides](/files/FACETDemo-VLDB-2024.pptx)
 
-**Checkout the following resources related to this work!**
+**Check out the following resources related to this work!**
 
 - The core FACET system paper was published at SIGMOD 2024 and is available [here](/publication/FACET-Robust-CFs)
 - We provide an open source build ready implementation of FACET and the accompanying dashboard developed in Python and ReactJS at [https://github.com/PeterVanNostrand/FACET](https://github.com/PeterVanNostrand/FACET)

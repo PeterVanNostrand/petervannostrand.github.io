@@ -13,7 +13,7 @@ As a researcher with an engineering background, I’m passionate about expanding
 
 My research has been published in conferences such as FAccT, SIGMOD, KDD, and VLDB with a variety of incredible collaborators. I’ve also had the honor of serving as a mentor to several undergraduate teams and new graduate students.
 
-Learn more about my work <a href="/publications" style="text-decoration: underline;">here</a> or checkout my <a href="/cv" style="text-decoration: underline;">CV</a> for more about me!
+Learn more about my work <a href="/publications" style="text-decoration: underline;">here</a> or check out my <a href="/cv" style="text-decoration: underline;">CV</a> for more about me!
 
 Publications
 ===
