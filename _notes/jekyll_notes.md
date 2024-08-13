@@ -7,7 +7,7 @@ bundle install
 bundle exec jekyll serve --watch
 ```
 
-Fix `GitHUB API credneitals you provided aren't valid`
+Fix `GitHUB API credentials you provided aren't valid`
 
 Sources
 
