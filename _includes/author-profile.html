@@ -10,12 +10,21 @@
     {% if author.avatar contains "://" %}
     <img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
+  <link rel="stylesheet" type="text/css" media="all" href="/assets/css/inlineaudio.css" />
+  <audio preload="auto" id="audioNamePronunce">
+    <source src="/assets/audio/name_pronunciation_female.ogg" type="audio/ogg">
+    <source src="/assets/audio/name_pronunciation_female.mp3" type="audio/mpeg">
+    <source src="/assets/audio/name_pronunciation_female.wav" type="audio/wav">
+  </audio>
+
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ author.name }}
+      <a OnClick="document.getElementById('audioNamePronunce').play()" class="click-audio"><i class="fa-solid fa-volume-low"></i></a>
+    </h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>

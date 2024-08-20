@@ -10,7 +10,7 @@ paperurl: "https://dl.acm.org/doi/10.1145/3626729?cid=99659850355"
 citation: "Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, and Elke A. Rundensteiner. 2023. FACET: Robust Counterfactual Explanation Analytics. Proc. ACM Manag. Data 1, 4, Article 242 (December 2023), 27 pages. https://doi.org/10.1145/3626729"
 ---
 
-<link rel="stylesheet" type="text/css" media="all" href="/assets/css/publication_items.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/assets/css/panelstory.css" />
 
 <a class="panel-story" href="/files/FACET/FACET-SIGMOD24-Panel-Story.pptx"><img src="/files/FACET/FACET-SIGMOD24-Panel-Story.gif" alt="a carousel of slides presenting the paper"  width="100%" /></a>
 

@@ -39,7 +39,21 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+i.fas {
+  color: black;
+}
 
+.education-item{
+  line-height: normal;
+}
+
+.education-item img{
+  margin-right: 3px;
+}
+
+.education-item p {
+  margin-left: 35px;
+}
 </style>
 
 <!-- <i class="fas fa-file-alt"></i>
@@ -53,7 +67,6 @@ Click <a href="/publications" style="text-decoration: underline;">here</a> for m
 &nbsp;[**Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions**](publication/FACET-Demo)  
 *Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner*  
 Proceedings of the VLDB Endowment (VLDB '24)
-
 
 <i class="fas fa-file-alt"></i>
 &nbsp;[**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**](publication/Examining-Actionable-Recourse)  
@@ -83,9 +96,17 @@ arXiv:1908.10730 2019
 Education
 ===
 
-![graduation cap](/images/grad_cap_med.png) **PhD in Data Science**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Worcester Polytechnic Institute, Ongoing  
-![graduation cap](/images/grad_cap_med.png) **Masters in Data Science**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Worcester Polytechnic Institute, 2022  
-![graduation cap](/images/grad_cap_med.png) **BS in Electrical and Computer Engineering**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University at Buffalo, 2016
+<div class="education-item">
+<img src="/images/grad_cap_med.png"><b>PhD in Data Science</b>
+<p>Worcester Polytechnic Institute, Ongoing</p>
+</div>
+
+<div class="education-item">
+<img src="/images/grad_cap_med.png"><b>Masters in Data Science</b>
+<p>Worcester Polytechnic Institute, 2022</p>
+</div>
+
+<div class="education-item">
+<img src="/images/grad_cap_med.png"><b>BS in Electrical and Computer Engineering</b>
+<p>University at Buffalo, 2016</p>
+</div>

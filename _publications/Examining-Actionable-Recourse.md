@@ -10,7 +10,7 @@ paperurl: "https://dl.acm.org/doi/10.1145/3630106.3658997?cid=99659850355"
 citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, and Elke A. Rundensteiner. 2024. Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding. In The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24), June 03--06, 2024, Rio de Janeiro, Brazil. ACM, New York, NY, USA 19 Pages. https://doi.org/10.1145/3630106.3658997"
 ---
 
-<link rel="stylesheet" type="text/css" media="all" href="/assets/css/publication_items.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/assets/css/panelstory.css" />
 
 <a class="panel-story" href="/files/Examining-Actionable-Recourse/Examining-Actionable-Recourse-FAccT24-Panel-Story.pptx"><img src="/files/Examining-Actionable-Recourse/Examining-Actionable-Recourse-FAccT24-Panel-Story.gif" alt="a carousel of slides presenting the paper"  width="100%" /></a>
 

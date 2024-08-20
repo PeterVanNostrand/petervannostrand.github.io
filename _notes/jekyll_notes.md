@@ -7,6 +7,8 @@ bundle install
 bundle exec jekyll serve --watch
 ```
 
+Use [http://localhost:4000/](http://localhost:4000/) rather than [http://localhost:4000/](http://localhost:4000/) to make icons load correctly
+
 Fix `GitHUB API credentials you provided aren't valid`
 
 Sources
