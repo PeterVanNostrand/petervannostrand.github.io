@@ -56,12 +56,18 @@ i.fas {
 }
 </style>
 
-<!-- <i class="fas fa-file-alt"></i>
-&nbsp;**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**  
-*Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2025 (SIGMOD '25) -->
-
 Click <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Agree to Disagree: Robust Anomaly Detection with Noisy Labels**](publication/UNITY)  
+*Dennis M. Hofmann, Peter M. VanNostrand, Lei Ma, Huayi Zhang, Joshua C. DeOliveira, Lei Cao, Elke A. Rundensteiner*  
+Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
+
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**](publication/PLUTO)  
+*Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
+Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
 
 <i class="fas fa-file-alt"></i>
 &nbsp;[**Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions**](publication/FACET-Demo)  
