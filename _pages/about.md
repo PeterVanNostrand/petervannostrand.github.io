@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm Peter, a PhD Candidate in Data Science at Worcester Polytechnic Institute. My research focuses on building systems and technologies for the ethical and responsible use of machine learning with an eye towards using data science for social good. My most recent works study generating and evaluating different types of explanations to bring transparency and recourse to consequential automated decisions.
+Hi there! I'm Peter, a PhD Candidate in Data Science at Worcester Polytechnic Institute. I work with Professor Elke Rundensteiner as part of the <a href="https://daisy.wpi.edu" style="text-decoration: underline;">DAISY Lab</a>. My research focuses on building systems and technologies for the ethical and responsible use of machine learning with an eye towards using data science for social good. My most recent works study generating and evaluating different types of explanations to bring transparency and recourse to consequential automated decisions.
 
 As a researcher with an engineering background, I’m passionate about expanding on emerging concepts in machine learning to build systems and solutions that are practically useful to real users. I’ve leveraged this background to become a fast learner and taken technologies from initial research to design and development of scalable systems and human-computer interfaces to evaluation through A/B crowd sourced user testing.
 
