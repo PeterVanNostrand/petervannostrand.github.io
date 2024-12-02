@@ -7,7 +7,7 @@ date: 2024-08-26
 venue: "Proceedings of the VLDB Endowment (VLDB)"
 slidesurl: "/files/FACET-Demo/FACET-Demo-VLDB-2024-Slides.pptx"
 paperurl: "/redirect/FACET-Demo-PDF"
-citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner. Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions. PVLDB, 17(12): 4349-4352, 2024. https://doi.org/10.14778/3685800.3685872"
+citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke. A. Rundensteiner. 2024. Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions. Proc. VLDB Endow. 17, 12 (August 2024), 4349–4352. https://doi.org/10.14778/3685800.3685872"
 ---
 
 
