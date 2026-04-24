@@ -31,7 +31,8 @@ layout: default
 
       {% unless page.header.overlay_color or page.header.overlay_image %}
       <header>
-        {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        {% if page.title and page.venue %}<h1 class="page__title" itemprop="headline" style="margin-bottom: 3pt">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% elsif page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         {% if page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
         {% endif %}
@@ -42,7 +43,10 @@ layout: default
         {% if page.collection == 'teaching' %}
         <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-        <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% if page.authors %}
+        <p style="margin-top: 0px; margin-bottom: 0px;"><i>{{ page.authors }}</i></p>
+        {% endif %}
+        <p style="margin-top: 0px;">Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif page.date %}
         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -54,18 +58,63 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.panelslidesurl and page.panelgifurl %}
+        <link rel="stylesheet" type="text/css" media="all" href="/assets/css/panelstory.css" />
+        <a class="panel-story" href="{{ page.panelslidesurl }}">
+          <img src="{{ page.panelgifurl }}" alt="a carousel of slides presenting the paper" width="100%" />
+        </a>
+        <br>
+        {% endif %}
+
+        {% if page.excerpt %}
+        {{ page.excerpt }}
+        {% endif %}
+
+        <!-- {% if page.paperurl or page.codeurl or page.slidesurl or page.posterurl %}
+        Downloads: {% if page.paperurl %} [Paper]({{ page.paperurl }}){% endif %}
+                  {% if page.codeurl %}{% if page.paperurl %} | {% endif %} [Code]({{ page.codeurl }}) {% endif %}
+                    {% if page.slidesurl %}{% if page.paperurl or page.codeurl %} | {% endif %} [Slides]({{ page.slidesurl }}) {% endif %}
+                    {% if page.posterurl %}{% if page.paperurl or page.codeurl or page.slidesurl %} | {% endif %} [Poster]({{ page.posterurl }}) {% endif %}
+        {% endif %} -->
+        <p>
+          <br>
+          Downloads:
+          {% if page.paperurl %}
+          <a href="{{ page.paperurl }}">Paper</a>
+          {% endif %}
+
+          {% if page.codeurl %}
+          {% if page.paperurl %} | {% endif %}
+          <a href="{{ page.codeurl }}">Code</a>
+          {% endif %}
+
+          {% if page.slidesurl %}
+          {% if page.paperurl or page.codeurl %} | {% endif %}
+          <a href="{{ page.slidesurl }}">Slides</a>
+          {% endif %}
+
+          {% if page.posterurl %}
+          {% if page.paperurl or page.codeurl or page.slidesurl %} | {% endif %}
+          <a href="{{ page.posterurl }}">Poster</a>
+          {% endif %}
+        </p>
+
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% if page.ytvideourl %}
+        {% if page.ytvideocaption %}<h2 style="border-bottom: None; margin-bottom: 0pt; margin-top: 12pt;">{{ page.ytvideocaption }}</h2>{% endif %}
+        <iframe width="560" height="315" src="{{ page.ytvideourl }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border: 1px solid lightgrey;"></iframe>
+        <br>
+        {% endif %}
+
+        {% if page.citation and page.paperurl %}
+        <p style="font-size: smaller">
+          Recommended citation: {{ page.citation }}<br />
+        </p>
         {% elsif page.citation %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        <p style="font-size: smaller">
+          Recommended citation: {{ page.citation }}
+        </p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

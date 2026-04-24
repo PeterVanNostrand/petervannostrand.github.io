@@ -18,7 +18,7 @@ Learn more about my work <a href="/publications" style="text-decoration: underli
 Publications
 ===
 
-<style> 
+<style>
 
 a {
   color: #494e52;
@@ -59,20 +59,24 @@ i.fas {
 Click <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
 
 <i class="fas fa-file-alt"></i>
-&nbsp;[**Agree to Disagree: Robust Anomaly Detection with Noisy Labels**](publication/UNITY)  
-*Dennis M. Hofmann, Peter M. VanNostrand, Lei Ma, Huayi Zhang, Joshua C. DeOliveira, Lei Cao, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
-
-
-<i class="fas fa-file-alt"></i>
 &nbsp;[**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**](publication/PLUTO)  
 *Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
+Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Agree to Disagree: Robust Anomaly Detection with Noisy Labels**](publication/UNITY)  
+*Dennis M. Hofmann, Peter M. VanNostrand, Lei Ma, Huayi Zhang, Joshua C. DeOliveira, Lei Cao, Elke A. Rundensteiner*  
 Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
 
 <i class="fas fa-file-alt"></i>
 &nbsp;[**Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions**](publication/FACET-Demo)  
 *Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner*  
 Proceedings of the VLDB Endowment (VLDB '24)
+
+<i class="fas fa-file-alt"></i>
+&nbsp;[**Reproducibility Report for ACM SIGMOD 2024 Paper: 'FACET: Robust Counterfactual Explanation Analytics'**](publication/FACET-Reproducibility)  
+*Peter M. VanNostrand, Konstantinos Kanellis, Wan Shen Lim, and Donghyun Sohn*  
+Reproducibility Reports of the 2024 International Conference on Management of Data (SIGMOD ARI Reports ’24)
 
 <i class="fas fa-file-alt"></i>
 &nbsp;[**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**](publication/Examining-Actionable-Recourse)  
