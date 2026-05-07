@@ -8,7 +8,7 @@ date: 2022-08-01
 venue: "Proceedings of the VLDB Endowment (VLDB)"
 slidesurl: "/files/AutoOD-Demo/AutoOD-Demo-VLDB22-Slides.pptx"
 codeurl: "https://github.com/dhofmann34/AutoOD_Demo"
-paperurl: "/redirect/AutoOD-PDF"
+paperurl: "/redirect/AutoOD-Demo-PDF"
 ytvideourl: "https://www.youtube-nocookie.com/embed/Zrh-sDM42X8?si=UCjYqCc5IDS7cJu3"
 ytvideocaption: "Presentation by Dennis Hofmann at VLDB 2022"
 citation: "Dennis Hofmann, Peter VanNostrand, Huayi Zhang, Yizhou Yan, Lei Cao, Samuel Madden, and Elke Rundensteiner. 2022. A demonstration of AutoOD: a self-tuning anomaly detection system. Proc. VLDB Endow. 15, 12 (August 2022), 3706–3709. https://doi.org/10.14778/3554821.3554880"
