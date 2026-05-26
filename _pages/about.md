@@ -25,11 +25,11 @@ a {
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -39,6 +39,7 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
 i.fas {
   color: black;
 }
@@ -54,54 +55,84 @@ i.fas {
 .education-item p {
   margin-left: 35px;
 }
+
+.publication-item p {
+  margin-left: 18px;
+  margin-bottom: 0px;
+}
+
+.publication-item b {
+  display: block;
+  text-indent: 18px hanging;
+}
+
+.publication-item {
+  margin-bottom: 15px;
+}
+
 </style>
 
 Click <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data**](publication/PLUTO)  
-*Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/KRONE">KRONE: Scalable LLM-Augmented Log Anomaly Detection via Hierarchical Abstraction</a></b>
+  <p><i>Lei Ma, Jinyang Liu, Tieying Zhang, Peter M. VanNostrand, Dennis M. Hofmann, Lei Cao, Elke A. Rundensteiner, and Jianjun Chen</i></p>
+  <p>Proceedings of the 33rd IEEE International Conference on Data Engineering (ICDE '26)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Agree to Disagree: Robust Anomaly Detection with Noisy Labels**](publication/UNITY)  
-*Dennis M. Hofmann, Peter M. VanNostrand, Lei Ma, Huayi Zhang, Joshua C. DeOliveira, Lei Cao, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/PLUTO">Pluto: Sample Selection for Robust Anomaly Detection on Polluted Log Data</a></b>
+  <p><i>Lei Ma, Lei Cao, Peter M. VanNostrand, Dennis M. Hofmann, Elke A. Rundensteiner</i></p>
+  <p>Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions**](publication/FACET-Demo)  
-*Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner*  
-Proceedings of the VLDB Endowment (VLDB '24)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/UNITY">Agree to Disagree: Robust Anomaly Detection with Noisy Labels</a></b>
+  <p><i>Dennis M. Hofmann, Peter M. VanNostrand, Lei Ma, Huayi Zhang, Joshua C. DeOliveira, Lei Cao, Elke A. Rundensteiner</i></p>
+  <p>Proceedings of the ACM on Management of Data 2025 (SIGMOD '25)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Reproducibility Report for ACM SIGMOD 2024 Paper: 'FACET: Robust Counterfactual Explanation Analytics'**](publication/FACET-Reproducibility)  
-*Peter M. VanNostrand, Konstantinos Kanellis, Wan Shen Lim, and Donghyun Sohn*  
-Reproducibility Reports of the 2024 International Conference on Management of Data (SIGMOD ARI Reports ’24)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/FACET-Demo">Counterfactual Explanation Analytics: Empowering Lay Users to Take Action Against Consequential Automated Decisions</a></b>
+  <p><i>Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Belisha Genin, Randy Huang, and Elke A. Rundensteiner</i></p>
+  <p>Proceedings of the VLDB Endowment (VLDB '24)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explanation Type and Presentation on Lay User Understanding**](publication/Examining-Actionable-Recourse)  
-*Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Elke A. Rundensteiner*  
-Proceedings of ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/FACET-Reproducibility">Reproducibility Report for ACM SIGMOD 2024 Paper: 'FACET: Robust Counterfactual Explanation Analytics'</a></b>
+  <p><i>Peter M. VanNostrand, Konstantinos Kanellis, Wan Shen Lim, and Donghyun Sohn</i></p>
+  <p>Reproducibility Reports of the 2024 International Conference on Management of Data (SIGMOD ARI Reports ’24)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**FACET: Robust Counterfactual Explanation Analytics**](publication/FACET-Robust-CFs)  
-*Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, Elke A. Rundensteiner*  
-Proceedings of the ACM on Management of Data 2023 (SIGMOD '23)  
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/Examining-Actionable-Recourse">Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explion anatType and Presentation on Lay User Understanding</a></b>
+  <p><i>Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Elke A. Rundensteiner</i></p>
+</div>
+<p>Proceedings of ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)</p>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**A Demonstration of AutoOD: A Self-Tuning Anomaly Detection System**](publication/AutoOD-Demo)  
-*Dennis Hofmann, Peter VanNostrand, Huayi Zhang, Yizhou Yan, Lei Cao, Samuel Madden, Elke Rundensteiner*  
-Proceedings of the VLDB Endowment 2022 (VLDB '22)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/FACET-Robust-CFs">FACET: Robust Counterfactual Explanation Analytics</a></b>
+  <p><i>Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, Elke A. Rundensteiner</i></p>
+  <p>Proceedings of the ACM on Management of Data 2023 (SIGMOD '23)  </p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**ELITE: Robust Deep Anomaly Detection with Meta Gradient**](publication/ELITE-Robust-AD)  
-*Huayi Zhang, Lei Cao, Peter VanNostrand, Samuel Madden, Elke A. Rundensteiner*  
-Proceedings ACM SIGKDD Conference on Knowledge Discovery & Data (KDD '21)
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/AutoOD-Demo">A Demonstration of AutoOD: A Self-Tuning Anomaly Detection System</a></b>
+  <p><i>Dennis Hofmann, Peter VanNostrand, Huayi Zhang, Yizhou Yan, Lei Cao, Samuel Madden, Elke Rundensteiner</i></p>
+  <p>Proceedings of the VLDB Endowment 2022 (VLDB '22)</p>
+</div>
 
-<i class="fas fa-file-alt"></i>
-&nbsp;[**Confidential Deep Learning: Executing Proprietary Models on Untrusted Devices**](publication/Confidential-DL)  
-*Peter M. VanNostrand, Ioannis Kyriazis, Michelle Cheng, Tian Guo, Robert J. Walls*  
-arXiv:1908.10730 2019
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/ELITE-Robust-AD">ELITE: Robust Deep Anomaly Detection with Meta Gradient</a></b>
+  <p><i>Huayi Zhang, Lei Cao, Peter VanNostrand, Samuel Madden, Elke A. Rundensteiner</i></p>
+  <p>Proceedings ACM SIGKDD Conference on Knowledge Discovery & Data (KDD '21)</p>
+</div>
+
+<div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/Confidential-DL">Confidential Deep Learning: Executing Proprietary Models on Untrusted Devices</a></b>
+  <p><i>Peter M. VanNostrand, Ioannis Kyriazis, Michelle Cheng, Tian Guo, Robert J. Walls</i></p>
+  <p>arXiv:1908.10730 2019</p>
+</div>
 
 Education
 ===

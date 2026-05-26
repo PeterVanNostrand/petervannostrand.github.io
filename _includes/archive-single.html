@@ -41,7 +41,8 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-authors">{{ post.authors }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-venue"><b>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</b> </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -49,15 +50,21 @@
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <div style="text-align: justify;"><p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong style="white-space: nowrap;"><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p></div>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% if post.citation and post.paperurl and post.slidesurl and post.codeurl %}
+    <p class="publication-button"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.paperurl }}"><i class="far fa-file-lines publication-button"></i>Download Paper</a> <a class="publication-button" href="{{ post.slidesurl }}"><i class="fa-solid fa-display publication-button"></i>Download Slides</a> <a class="publication-button" href="{{ post.codeurl }}"><i class="fa-solid fa-code publication-button"></i>Download Code</a></p>
+    {% elsif post.citation and post.paperurl and post.slidesurl %}
+      <p class="publication-button"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.paperurl }}"><i class="fa-regular fa-file-lines publication-button"></i>Download Paper</a> <a class="publication-button" href="{{ post.slidesurl }}"><i class="fa-solid fa-display publication-button"></i>Download Slides</a></p>
+    {% elsif post.citation and post.paperurl and post.codeurl %}
+      <p class="publication-button"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.paperurl }}"><i class="fa-regular fa-file-lines publication-button"></i>Download Paper</a> <a class="publication-button" href="{{ post.codeurl }}"><i class="fa-solid fa-code publication-button"></i>Download Code</a></p>
+    {% elsif post.citation and post.slidesurl and post.codeurl %}
+      <p class="publication-button;"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.slidesurl }}"><i class="fa-regular fa-display publication-button"></i>Download Slides</a> <a class="publication-button" href="{{ post.codeurl }}"><i class="fa-solid fa-code publication-button"></i>Download Code</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p class="publication-button"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.paperurl }}"><i class="fa-regular fa-file-lines publication-button"></i>Download Paper</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p class="publication-button"><a class="publication-button" href="{{ post.permalink }}"><i class="fa-regular fa-circle-question publication-button"></i>Learn More</a> <a class="publication-button" href="{{ post.slidesurl }}"><i class="fa-regular fa-display publication-button"></i>Download Slides</a></p>
     {% elsif post.citation %}
       <p></p>
       <!-- Recommended citation: {{ post.citation }} -->
@@ -65,6 +72,8 @@
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
     {% elsif post.slidesurl %}
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+    {% elsif post.codeurl %}
+      <p>Download <a href="{{ post.codeurl }}">Download Code</a></p></p>
     {% endif %}
 
   </article>

@@ -27,6 +27,19 @@
   }
 }
 
+.archive__item {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-color: #d1d9e0;
+  margin-top: 25px;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -34,34 +47,67 @@
   color: mix(#fff, $gray, 25%);
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin-top: 15px;
+
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
+}
+
+.archive__item-authors {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.archive__item-venue {
+  margin-top: 0px;
 }
 
 /* remove border*/
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 15px;
     border-bottom: none;
   }
+}
+
+a.publication-button {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 9999px;
+  font-size: 11pt;
+}
+
+i.publication-button {
+  margin-right: 5px;
+  font-size: 11pt;
+}
+
+p.publication-button {
+  text-align: center;
 }
 
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  text-align: justify;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 }
@@ -69,6 +115,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
@@ -130,14 +177,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
