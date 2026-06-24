@@ -75,6 +75,12 @@ i.fas {
 Click <a href="/publications" style="text-decoration: underline;">here</a> for more detail about my work!
 
 <div class="publication-item">
+  <b><i class="fas fa-file-lines"></i> <a href="publication/Diverse-Recourse">Options Without Agency: Diversity as a Requirement for Fair Actionable Recourse</a></b>
+  <p><i>Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, and Elke A. Rundensteiner</i></p>
+  <p>The 2026 ACM Conference on Fairness, Accountability, and Transparency (FAccT '26)</p>
+</div>
+
+<div class="publication-item">
   <b><i class="fas fa-file-lines"></i> <a href="publication/KRONE">KRONE: Scalable LLM-Augmented Log Anomaly Detection via Hierarchical Abstraction</a></b>
   <p><i>Lei Ma, Jinyang Liu, Tieying Zhang, Peter M. VanNostrand, Dennis M. Hofmann, Lei Cao, Elke A. Rundensteiner, and Jianjun Chen</i></p>
   <p>Proceedings of the 33rd IEEE International Conference on Data Engineering (ICDE '26)</p>
@@ -108,7 +114,7 @@ Click <a href="/publications" style="text-decoration: underline;">here</a> for m
   <b><i class="fas fa-file-lines"></i> <a href="publication/Examining-Actionable-Recourse">Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explion anatType and Presentation on Lay User Understanding</a></b>
   <p><i>Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Elke A. Rundensteiner</i></p>
 </div>
-<p>Proceedings of ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)</p>
+<p>The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)</p>
 
 <div class="publication-item">
   <b><i class="fas fa-file-lines"></i> <a href="publication/FACET-Robust-CFs">FACET: Robust Counterfactual Explanation Analytics</a></b>
