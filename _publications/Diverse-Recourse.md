@@ -8,4 +8,5 @@ date: 2026-06-25
 venue: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
 paperurl: "/files/Diverse-Recourse/Diverse-Recourse-FAccT26.pdf"
 citation: "Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, and Elke A. Rundensteiner. 2026. Options Without Agency: Diversity as a Requirement for Fair Actionable Recourse. In The 2026 ACM Conference on Fairness, Accountability, and Transparency (FAccT '26), June 25--28, 2026, Montreal, Canada. ACM, New York, NY, USA 19 Pages. https://doi.org/10.1145/3805689.3812337"
+codeurl: "https://github.com/PeterVanNostrand/DiverseRecourse"
 ---
