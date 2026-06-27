@@ -18,6 +18,6 @@ citation: "Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, and Elke A. Run
 
 **Check out the following resources related to this work!**
 
-- We published a comprehensive user evaluation of FACET's novel concept of Counterfactual Regions in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](https://petervannostrand.github.io/publication/Examining-Actionable-Recourse)!
+- We published a comprehensive user evaluation of FACET's novel concept of Counterfactual Regions in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](./Examining-Actionable-Recourse)!
 - We also develop an open source explanation user interface for lay users to interact with FACET's analytics. Check out our [demo paper](/publication/FACET-Demo) at VLDB 2024
 - We provide an open source build-ready implementation of FACET and the accompanying dashboard developed in Python and ReactJS at [https://github.com/PeterVanNostrand/FACET](https://github.com/PeterVanNostrand/FACET)

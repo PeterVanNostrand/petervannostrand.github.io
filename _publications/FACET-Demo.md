@@ -18,4 +18,4 @@ ytvideourl: "https://www.youtube-nocookie.com/embed/9MNDrbIb2t0?si=rem937PnJ_bfh
 
 - The core FACET system paper was published at SIGMOD 2024 and is available [here](/publication/FACET-Robust-CFs)
 - We provide an open source build-ready implementation of FACET and the accompanying dashboard developed in Python and ReactJS at [https://github.com/PeterVanNostrand/FACET](https://github.com/PeterVanNostrand/FACET)
-- We published a comprehensive user evaluation of FACET's novel concept of Counterfactual Regions in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](https://petervannostrand.github.io/publication/Examining-Actionable-Recourse)!
+- We published a comprehensive user evaluation of FACET's novel concept of Counterfactual Regions in ACM FAccT 2024 (Fairness Accountability Transparency). Check it out [here](./Examining-Actionable-Recourse)!
