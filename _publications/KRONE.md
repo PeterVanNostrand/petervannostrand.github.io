@@ -10,7 +10,7 @@ venue: "Proceedings of the 33rd IEEE International Conference on Data Engineerin
 citation: "Lei Ma, Jinyang Liu, Tieying Zhang, Peter M. VanNostrand, Dennis M. Hofmann, Lei Cao, Elke A. Rundensteiner, and Jianjun Chen. 2026. KRONE: Scalable LLM-Augmented Log Anomaly Detection via Hierarchical Abstraction. Proceedings of the 2026 IEEE 33rd International Conference on Data Engineering (ICDE)."
 codeurl: "https://github.com/LeiMa0324/KRONE"
 ytvideourl: "https://www.youtube.com/embed/L_QpMUqXJuY?si=OjBumFWhDiRTiySP"
-slidesurl: "https://petervannostrand.github.io/files/KRONE/KRONE-ICDE26-Slides.pdf"
+slidesurl: "../files/KRONE/KRONE-ICDE26-Slides.pdf"
 ---
 
 **Check out the following resources related to this work!**
