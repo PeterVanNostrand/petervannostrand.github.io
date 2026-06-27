@@ -66,9 +66,14 @@ layout: default
         <br>
         {% endif %}
 
+        {% if page.headerimage %}
+        <img src="{{ page.headerimage }}" width="100%" style="margin-bottom: 10px;" />
+        {% endif %}
+
         {% if page.excerpt %}
         {{ page.excerpt }}
         {% endif %}
+
         <p style="text-align: center;">
           <br>
           {% if page.paperurl %}
