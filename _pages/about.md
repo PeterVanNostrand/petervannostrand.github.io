@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm Peter, a PhD Candidate in Data Science at Worcester Polytechnic Institute. I work with Professor Elke Rundensteiner as part of the <a href="https://daisy.wpi.edu" style="text-decoration: underline;">DAISY Lab</a>. My research focuses on building systems and technologies for the ethical and responsible use of machine learning with an eye towards using data science for social good. My most recent works study generating and evaluating different types of explanations to bring transparency and recourse to consequential automated decisions.
+Hi there! I'm Peter, a PhD Candidate in Data Science at Worcester Polytechnic Institute. I work with Professor Elke Rundensteiner as part of the <a href="https://daisy.wpi.edu" style="text-decoration: underline;">DAISY Lab</a>. My research focuses on building systems and technologies for the ethical and responsible use of machine learning with an eye towards using data science for social good.
+<!-- My most recent works study generating and evaluating different types of explanations to bring transparency and recourse to consequential automated decisions. -->
 
 As a researcher with an engineering background, I’m passionate about expanding on emerging concepts in machine learning to build systems and solutions that are practically useful to real users. I’ve leveraged this background to become a fast learner and taken technologies from initial research to design and development of scalable systems and human-computer interfaces to evaluation through A/B crowd sourced user testing.
 
@@ -113,13 +114,13 @@ Click <a href="/publications" style="text-decoration: underline;">here</a> for m
 <div class="publication-item">
   <b><i class="fas fa-file-lines"></i> <a href="publication/Examining-Actionable-Recourse">Actionable Recourse for Automated Decisions: Examining the Effects of Counterfactual Explion anatType and Presentation on Lay User Understanding</a></b>
   <p><i>Peter M. VanNostrand, Dennis M. Hofmann, Lei Ma, Elke A. Rundensteiner</i></p>
+  <p>The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)</p>
 </div>
-<p>The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)</p>
 
 <div class="publication-item">
   <b><i class="fas fa-file-lines"></i> <a href="publication/FACET-Robust-CFs">FACET: Robust Counterfactual Explanation Analytics</a></b>
   <p><i>Peter M. VanNostrand, Huayi Zhang, Dennis M. Hofmann, Elke A. Rundensteiner</i></p>
-  <p>Proceedings of the ACM on Management of Data 2023 (SIGMOD '23)  </p>
+  <p>Proceedings of the ACM on Management of Data 2023 (SIGMOD '23)</p>
 </div>
 
 <div class="publication-item">
