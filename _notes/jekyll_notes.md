@@ -1,5 +1,12 @@
 # How to Build an Run Jekyll Site Locally
 
+## Setup
+
+1. Install Ruby 3.2.11 or earlier and add it to the path
+2. Install bundle with `gem install bundler`
+
+## Build The Website
+
 In the project root
 
 ```bash
@@ -9,7 +16,8 @@ bundle exec jekyll serve --watch
 
 Use [http://localhost:4000/](http://localhost:4000/) rather than [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to make icons load correctly
 
-**Current GitHub token expires 4/24/27**
+## Troubleshooting
+
 Fix `GitHUB API credentials you provided aren't valid`
 
 Create a GitHUB Token

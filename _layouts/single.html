@@ -76,17 +76,14 @@ layout: default
           {% endif %}
 
           {% if page.codeurl %}
-          {% if page.paperurl %} {% endif %}
           <a class="publication-button" href="{{ page.codeurl }}"><i class="fa-solid fa-code publication-button"></i>Download Code</a>
           {% endif %}
 
           {% if page.slidesurl %}
-          {% if page.paperurl or page.codeurl %} {% endif %}
-          <a class="publication-button" href="{{ post.slidesurl }}"><i class="fa-solid fa-display publication-button"></i>Download Slides</a>
+          <a class="publication-button" href="{{ page.slidesurl }}"><i class="fa-solid fa-display publication-button"></i>Download Slides</a>
           {% endif %}
 
           {% if page.posterurl %}
-          {% if page.paperurl or page.codeurl or page.slidesurl %} {% endif %}
           <a class="publication-button" href="{{ page.posterurl }}"><i class="fa-regular fa-note-sticky publication-button"></i>Download Poster</a>
           {% endif %}
         </p>
